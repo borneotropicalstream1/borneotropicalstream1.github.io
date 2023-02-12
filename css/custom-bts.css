@@ -1,0 +1,21 @@
+/**
+ * BTS - CUSTOM CSS
+ * @created by fadilah ajiq surya
+ **/
+
+.logo {
+    max-width: auto;
+    max-height: 58px;
+    padding: 5px;
+}
+.bgsize-auto {
+    background-size: auto;
+}
+.testimony-wrap .line:after {
+    background: #CB2027;
+}
+.img-2 .icon {
+    background: #CB2027;
+}
+
+/* BTN */
