@@ -3,6 +3,13 @@
  * @created by fadilah ajiq surya
  **/
 
+.color-white {
+    color: #fff !important;
+}
+.color-primary {
+    color: #31afb4 !important;
+}
+
 .logo {
     max-width: auto;
     max-height: 58px;
@@ -11,11 +18,58 @@
 .bgsize-auto {
     background-size: auto;
 }
+.ftco-section {
+    padding: 3em 0;
+}
 .testimony-wrap .line:after {
     background: #CB2027;
 }
 .img-2 .icon {
     background: #CB2027;
 }
+.product {
+    border: 1px solid #31afb4;
+}
+.product .ribbon {
+    position: absolute;
+    top: -11px;
+    width: 219px;
+    left: -10px;
+    padding: 10px;
+    color: #fff;
+    background-size: contain !important;
+    background: url(../images/fish/bts-ribbon.png) no-repeat;
+    height: auto;
+    z-index: 1;
+}
 
-/* BTN */
+/* Footer */
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    padding: 5px; 
+}
+.ftco-footer {
+    background: #31afb4 !important;
+}
+.ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget ul li a, .ftco-footer .ftco-footer-widget p, .ftco-footer .ftco-footer-widget span {
+    color: #fff;
+}
+
+/* Owl Carouse */
+#multiple-product-section {
+    background: url(../images/fish/rsz_113982650_8.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    padding: 20px;
+}
+#multiple-product-slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.multiple-product-slider-img-wrap {
+    border: 4px solid #fff;
+    max-width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
