@@ -52,8 +52,18 @@
 .ftco-footer {
     background: #31afb4 !important;
 }
+.ftco-footer .ftco-footer-widget ul.footer-menu li {
+    background: rgb(55 195 200 / 50%);
+    padding: 0 0.5em;
+}
 .ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget ul li a, .ftco-footer .ftco-footer-widget p, .ftco-footer .ftco-footer-widget span {
     color: #fff;
+}
+.ftco-footer .ftco-footer-widget h2 {
+    border-bottom: 1px solid #fff;
+}
+.ftco-footer-social li a {
+    background: rgb(255 255 255);
 }
 
 /* Owl Carouse */
@@ -61,7 +71,7 @@
     background: url(../images/fish/rsz_113982650_8.jpg);
     background-size: cover;
     background-position: center bottom;
-    padding: 20px;
+    padding: 4em;
 }
 #multiple-product-slider {
     margin-top: 20px;
