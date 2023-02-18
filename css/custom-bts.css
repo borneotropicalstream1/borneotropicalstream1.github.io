@@ -9,6 +9,27 @@
 .color-primary {
     color: #31afb4 !important;
 }
+.bg-primary {
+    background-color: #31afb4 !important;
+}
+.home-timer-event-bg {
+    background: url(../images/bg-underwater.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.6;
+    height: 100%;
+    position: absolute;
+}
+.home-timer-event-content {
+    height: 100%;
+    position: absolute;
+}
+#timer {
+
+}
+#timer .time, #timer .time span {
+    color: #fff;
+}
 
 .logo {
     max-width: auto;
@@ -17,6 +38,9 @@
 }
 .bgsize-auto {
     background-size: auto;
+}
+.heading-section .subheading {
+    margin-bottom: 0 !important;
 }
 .ftco-section {
     padding: 3em 0;
@@ -59,15 +83,27 @@
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+hr {
+    margin: 0.1em 0;
+}
+
+.section-our-market {
+    padding: 2em 0;
+}
+.img-find-us {
+    
+}
 
 /* Footer */
+.ftco-footer {
+    background: url(../images/bg-underwater.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: bottom !important;
+}
 .footer-logo {
     max-width: 150px;
     height: auto;
     padding: 5px; 
-}
-.ftco-footer {
-    background: #31afb4 !important;
 }
 .ftco-footer .ftco-footer-widget ul.footer-menu li {
     background: rgb(55 195 200 / 50%);
@@ -88,7 +124,7 @@
     background: url(../images/fish/rsz_113982650_8.jpg);
     background-size: cover;
     background-position: center bottom;
-    padding: 4em;
+    padding: 3em;
 }
 #multiple-product-slider {
     margin-top: 20px;
