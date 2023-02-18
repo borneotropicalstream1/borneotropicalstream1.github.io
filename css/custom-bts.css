@@ -43,6 +43,23 @@
     z-index: 1;
 }
 
+.outer-img-gallery {
+    position: relative;
+    overflow: hidden;
+    max-height: 230px;
+
+}.outer-img-gallery img {
+
+}
+
+.product-more-hover {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
 /* Footer */
 .footer-logo {
     max-width: 150px;
