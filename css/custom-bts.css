@@ -91,7 +91,42 @@ hr {
     padding: 2em 0;
 }
 .img-find-us {
-    
+
+}
+
+/* nav slider */
+.owl-nav {
+    bottom: 0 !important;
+    height: 100%;
+}.owl-prev {
+    background: transparent !important;
+    position: absolute;
+    left: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    width: 15% !important;
+}.owl-next {
+    background: transparent !important;
+    position: absolute;
+    right: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100% !important;
+    width: 15% !important;
+}
+.owl-carousel.home-slider .owl-nav .owl-prev:hover, .owl-carousel.home-slider .owl-nav .owl-prev:focus {
+    background-color: transparent !important;
+}.owl-carousel.home-slider .owl-nav .owl-next:hover, .owl-carousel.home-slider .owl-nav .owl-next:focus {
+    background-color: transparent !important;
+}.slider-prev, .slider-next {
+    color: #fff;
+    font-size: 50px;
+    opacity: .5;
+}.slider-prev:hover:before, .slider-next:hover:before {
+    color: #31afb4;
 }
 
 /* Footer */
